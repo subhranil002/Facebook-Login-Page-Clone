@@ -1,0 +1,336 @@
+/* Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+/* Google Fonts */
+
+body {
+    margin: 0px;
+    background-color: #f0f2f5;
+    cursor: default;
+}
+
+/* Main Container Start */
+
+.container {
+    margin: 0px;
+    overflow: hidden;
+}
+
+.container-body {
+    margin: 0px;
+    width: 100%;
+    height: 670px;
+    display: flex;
+}
+
+/* Container Body Left Start */
+
+.container-body-left {
+    padding: 85px 0px 0px 180px;
+
+}
+
+.container-body-left-up-logo {
+    font-family: 'Prompt', sans-serif;
+    color: #1877f2;
+    font-size: 40px;
+    margin: 0px;
+    cursor: context-menu;
+}
+
+.container-body-left-up-midtext {
+    font-family: 'Roboto', sans-serif;
+    color: #232528;
+    font-size: 30px;
+    margin: 0px;
+
+}
+
+.container-body-left-up-downtext {
+    font-family: 'Roboto', sans-serif;
+    color: #85888b;
+    margin: 0px;
+    font-size: 15px;
+}
+
+.container-body-left-down {
+    display: flex;
+}
+
+/* Cards */
+
+.card {
+    height: 210px;
+    width: 160px;
+    border: 1px solid #d2d5d6;
+    margin: 25px 0px 0px 0px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.card-cross {
+    position: absolute;
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    margin: 5px 0px 0px 5px;
+    height: 17px;
+    width: 17px;
+    background-color: rgb(63, 62, 62);
+    opacity: 0.5;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 0.9;
+    color: #ffffff;
+}
+
+.card:hover {
+    box-shadow: 0px 1px 7px 5px #d9dee2;
+    transition: 300ms;
+}
+
+.card:hover .card-cross {
+    background-color: #ffffff;
+    color: #888485;
+    height: 25px;
+    width: 25px;
+    opacity: 1;
+    font-size: 25px;
+    margin: -5px 0px 0px -5px;
+    transition: 0.3s;
+    box-shadow: 1px 1px 1px 1px #888485;
+}
+
+.card-img {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-footer {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: #484b4e;
+    font-size: 18px;
+    margin: 5px 0px 0px 0px;
+}
+
+#blue {
+    color: #1976f2;
+}
+
+/* Cards */
+/* Container Body Left End */
+/* Container Body Right Start */
+
+.container-body-right {
+    height: 550px;
+    width: 500px;
+    margin: 50px 0px 0px 150px;
+}
+
+.container-body-right-up {
+    width: 400px;
+    height: 350px;
+    background-color: #ffffff;
+    margin: 80px 0px 0px 80px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px 3px #d9dee2;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Login Part Start */
+
+input {
+    border: 1px solid #cfcece;
+    font-size: 17px;
+    width: 92%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#input1 {
+    padding: 15px;
+    margin: 15px;
+}
+
+#input2 {
+    padding: 15px;
+    margin: 15px 15px 0px 15px;
+    margin-top: 0px;
+}
+
+input:focus {
+    box-shadow: 0 0 3px #719ECE;
+    outline: none;
+    border: 1px solid #1877f2;
+}
+
+#login {
+    cursor: pointer;
+    padding: 7px;
+    margin: 15px;
+    width: 92%;
+    border-radius: 7px;
+    background-color: #1877f2;
+    color: #ffffff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 22px;
+    border-color: #1877f2;
+}
+
+#login:hover {
+    background-color: #1570e6;
+}
+
+#frgotpass {
+    width: 135px;
+    margin-left: 130px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #1976f2;
+    text-decoration: none;
+    margin-top: 1px;
+}
+
+#frgotpass:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#hr1{
+    width: 90%;
+    height: 0.1%;
+    margin-top: 25px;
+    background-color: #cccccc;
+    border: none;
+}
+
+#crtnewacc {
+    width: 50%;
+    padding: 12px;
+    margin: 15px 0px 0px 100px;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 17px;
+}
+
+#crtnewacc:hover {
+    background-color: #3ba825;
+    cursor: pointer;
+}
+
+/* Login Part End */
+/* Right Part Footer Text */
+
+.container-body-right-down p {
+    margin: 30px 0px 0px 130px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.container-body-right-down b {
+    color: #000000;
+    text-decoration: none;
+}
+
+.container-body-right-down b:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Right Part Footer Text */
+/* Container Body Right End */
+/* Main Footer Start */
+
+.container-footer {
+    background-color: #ffffff;
+    width: 100%;
+    height: 175px;
+    position: absolute;
+}
+
+#p1 {
+    margin: 25px 0px 0px 180px;
+    color: #7b7b7c;
+    font-size: 13px;
+    word-spacing: 12px;
+    list-style: 20px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+#p2 {
+    color: #7b7b7c;
+    font-size: 12px;
+    margin: 0px 0px 0px 180px;
+    word-spacing: 12px;
+    line-height: 20px;
+    font-family: 'Inter', sans-serif;
+}
+p a {
+    color: #686767;
+    font-weight: bold;
+}
+
+#hr2 {
+    width: 73%;
+    height: 0.1%;
+    margin: 10px 0px 10px 180px;
+    background-color: #cccccc;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: default;
+}
+
+/* Main Footer End */
+/* Main Container End */
+/* Not Reaponsive Message */
+
+.nonresponsive {
+    display: none;
+    width: 100%;
+}
+
+.nonresponsive-text {
+    font-size: 500%;
+    text-align: center;
+    font-family: 'Prompt', sans-serif;
+    color:#1877f2 ;
+}
+
+/* Not Reaponsive Message */
+/* Media Quaries */
+
+@media screen and (width>1400px) {
+    .container {
+        display: none;
+    }
+    .nonresponsive {
+        display: block;
+    }
+}
+
+@media screen and (width<1200px) {
+    .container {
+        display: none;
+    }
+    .nonresponsive {
+        display: block;
+    }
+}
+
+/* Media Quaries */
